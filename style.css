@@ -6,6 +6,10 @@ body {
   text-align: center;
 }
 
+sup {
+  font-size: 0.6em;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -23,6 +27,17 @@ span {
   min-height: 400px;
 }
 
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
 /* Analog */
 
 .analog-clock {
@@ -37,8 +52,19 @@ span {
 }
 
 #h-hand, #m-hand, #s-hand, #s-tail {
-  stroke: #666666;
   stroke-linecap: round;
+}
+
+#h-hand {
+  stroke: #222222;
+}
+
+#m-hand {
+  stroke: #424141;
+}
+
+#s-hand, #s-tail {
+  stroke: #666666;
 }
 
 #h-hand {
