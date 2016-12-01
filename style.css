@@ -31,13 +31,13 @@ span {
 }
 
 #clock-face {
-  stroke: black;
+  stroke: #666666;
   stroke-width: 2px;
   fill: white;
 }
 
 #h-hand, #m-hand, #s-hand, #s-tail {
-  stroke: black;
+  stroke: #666666;
   stroke-linecap: round;
 }
 
@@ -56,4 +56,5 @@ span {
 .time-text {
   text-align: center;
   padding-top: 10px;
+  color: #666666;
 }
