@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 1em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+span {
+  font-size: 1.2em;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 400px;
+}
+
+/* Analog */
+
+.analog-clock {
+  width: 140px;
+  height: 140px;
+}
+
+#clock-face {
+  stroke: black;
+  stroke-width: 2px;
+  fill: white;
+}
+
+#h-hand, #m-hand, #s-hand, #s-tail {
+  stroke: black;
+  stroke-linecap: round;
+}
+
+#h-hand {
+  stroke-width: 3px;
+}
+
+#m-hand {
+  stroke-width: 2px;
+}
+
+#s-hand {
+  stroke-width: 1px;
+}
+
+.time-text {
+  text-align: center;
+  padding-top: 10px;
+}
