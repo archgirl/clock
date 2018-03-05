@@ -35,18 +35,18 @@ function clock() {
     // call every second
     setTimeout(clock, 1000);
 
-};
+}
 
 function setAttr(id,val) {
     var v = 'rotate(' + val + ', 70, 70)';
     document.getElementById(id).setAttribute('transform', v);
-};
+}
 
 function setText(id,val) {
     if(val < 10){
         val = '0' + val;
     }
     document.getElementById(id).innerHTML = val;
-};
+}
 
 window.onload = clock;
